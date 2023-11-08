@@ -1,0 +1,7 @@
+.Wraper{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:coloum;
+    gap:10px;
+}

@@ -1,23 +1,43 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Message from './EventHandling/Message';
+import Helloworld from './HelloWorld';
+import Color from './backgroundcolor/Color';
+import ClassComponent from './components/ClassComponent';
+import ClassStateandProps from './components/ClassStateandProps';
+import FunctionalComponents from './components/FunctionalComponents';
+import ConditionalRendering from './conditionalRendering/ConditionalRendering';
+import CustomeHooks from './customhooks/CustomeHooks';
+import Form from './form/Form';
+import SignUp from './form/Register';
+
+
+import Useeffect from './hooks/Useeffect';
+import ContextHook from './hooks/context API/ContextHook';
+import UseMemoHook from './hooks/useMemo/UseMemoHook';
+import UseReducerHook from './hooks/useReducer/UseReducerHook';
+
+import UseRefHook from './hooks/useRefHook/UseRefHook';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+    {/* <Helloworld/>
+     <ClassComponent/>
+     <ClassStateandProps/>
+    <Message/>
+    <FunctionalComponents/> */}  
+    {/* <Useeffect/> */}
+    {/* <Color/> */}
+    {/* <ConditionalRendering/> */}
+    {/* <CustomeHooks/> */}
+    {/* <Form/> */}
+    
+    {/* <SignUp/> */}
+    {/* <UseRefHook/> */}
+    {/* <ContextHook/> */}
+    {/* <UseReducerHook/> */}
+    <UseMemoHook/>
     </div>
   );
 }
